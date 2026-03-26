@@ -21,7 +21,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/Heroic-Kart">
       <AuthProvider>
         <CartProvider>
           <Layout>
